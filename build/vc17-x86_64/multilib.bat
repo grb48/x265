@@ -41,5 +41,3 @@ if exist x265.sln (
   LIB.EXE /ignore:4006 /ignore:4221 /OUT:Release\x265-static.lib x265-static-main.lib x265-static-main10.lib x265-static-main12.lib
   MSBuild.exe /property:Configuration="Release" INSTALL.vcxproj
 )
-
-pause
